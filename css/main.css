@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Charmonman', cursive;
+  font-family: Charmonman, cursive;
 }
 
 *, *::before, *::after {
@@ -88,55 +88,60 @@ footer {
 @media only screen and (min-width: 25em) {
 
   img {
-      display: inline-block;
-      width: 50%;
-      float: left;
-      padding: .1em;
-    }
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: .1em;
+  }
 
-    img:nth-child(even) {
-      display: inline;
-    }
+  img:nth-child(even) {
+    display: inline;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   img {
-      display: inline-block;
-      width: 33%;
-      float: left;
-      padding: .1em;
-    }
+    display: flex;
+    width: 33%;
+    float: left;
+    padding: .1em;
+  }
 
-    img:nth-child(even) {
-      display: inline;
-    }
+  img:nth-child(even) {
+    display: inline;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   img {
-      display: inline-block;
-      width: 25%;
-      float: left;
-      padding: .1em;
-    }
+    display: inline-block;
+    width: 25%;
+    float: left;
+    padding: .1em;
+  }
 
-    img:nth-child(even) {
-      display: inline;
-    }
+  img:nth-child(even) {
+    display: inline;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   img {
-      display: inline-block;
-      width: 25%;
-      float: left;
-      padding: .1em;
-    }
+    display: inline-block;
+    width: 25%;
+    float: left;
+    padding: .1em;
+  }
 
-    img:nth-child(even) {
-      display: inline;
-    }
+  img:nth-child(even) {
+    display: inline;
+  }
+
+
 }
