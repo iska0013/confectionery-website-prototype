@@ -72,9 +72,12 @@ header li a {
 }
 
 .soft-chocolate {
-  position: relative;
+ position: relative;
 }
 
+.relative {
+  position: relative;
+}
 
 .crunchy-chocolate a, .crunchy-chocolate p {
   margin: 0;
@@ -92,7 +95,7 @@ header li a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   text-align: left;
 }
 
@@ -129,7 +132,8 @@ footer {
     padding: .1em;
   }
 
-  img:nth-child(an+b)
+  img:nth-child(an+b){
+
 
 }
 
@@ -137,13 +141,21 @@ footer {
 
   img {
     display: flex;
-    width: 33%;
+    width: 32%;
     float: left;
     padding: .1em;
   }
 
-  img:nth-child(even) {
-    display: inline;
+  .hard-chocolate .img-flex {
+    position: relative;
+  }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
   }
 
 }
@@ -165,16 +177,10 @@ footer {
 
 @media only screen and (min-width: 90em) {
 
-  img {
-    display: inline-block;
-    width: 25%;
-    float: left;
-    padding: .1em;
-  }
+
 
   img:nth-child(even) {
     display: inline;
   }
-
 
 }
