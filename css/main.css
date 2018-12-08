@@ -44,8 +44,9 @@ header li {
   background-color: #ccc;
 }
 
-header li:hover {
+li a:hover {
   background-color: #636363;
+  display: block;
 }
 
 header li a {
@@ -53,12 +54,46 @@ header li a {
   color: #000;
 }
 
-img {
+.img-flex {
+  display: block;
   width: 100%;
 }
 
 .hard-chocolate {
   margin-top: 3em;
+}
+
+.crunchy-chocolate {
+  position: relative;
+}
+
+.hard-chocolate {
+  position: relative;
+}
+
+.soft-chocolate {
+  position: relative;
+}
+
+
+.crunchy-chocolate a, .crunchy-chocolate p {
+  margin: 0;
+}
+
+.hard-chocolate a, .hard-chocolate p {
+  margin: 0;
+}
+
+.soft-chocolate a, .soft-chocolate p {
+  margin: 0;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
 }
 
 div p {
@@ -87,16 +122,14 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
-  img {
+  .images {
     display: inline-block;
     width: 50%;
     float: left;
     padding: .1em;
   }
 
-  img:nth-child(even) {
-    display: inline;
-  }
+  img:nth-child(an+b)
 
 }
 
