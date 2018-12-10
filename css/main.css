@@ -112,6 +112,11 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
   .images {
     display: inline-block;
     width: 50%;
@@ -131,6 +136,11 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   img {
     display: flex;
@@ -176,6 +186,12 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+
   img {
     display: inline-block;
     width: 25%;
@@ -185,6 +201,10 @@ footer {
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 
   img {
     display: inline-block;
