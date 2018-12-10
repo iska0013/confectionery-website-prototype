@@ -39,7 +39,7 @@ header ul {
 
 header li {
   display: inline-block;
-  width: 32.3333%;
+  width: 33%;
   text-align: center;
   background-color: #ccc;
 }
@@ -57,38 +57,6 @@ header li a {
 .img-flex {
   display: block;
   width: 100%;
-}
-
-.hard-chocolate {
-  margin-top: 3em;
-}
-
-.crunchy-chocolate {
-  position: relative;
-}
-
-.hard-chocolate {
-  position: relative;
-}
-
-.soft-chocolate {
- position: relative;
-}
-
-.relative {
-  position: relative;
-}
-
-.crunchy-chocolate a, .crunchy-chocolate p {
-  margin: 0;
-}
-
-.hard-chocolate a, .hard-chocolate p {
-  margin: 0;
-}
-
-.soft-chocolate a, .soft-chocolate p {
-  margin: 0;
 }
 
 .text {
@@ -115,13 +83,28 @@ section p {
   margin: 1em;
 }
 
-main a {
+.btn {
   margin: 1em;
+  background-color: #636363;
+  padding: .3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 footer {
   margin: 1em;
+  text-align: center;
 }
+
+.images {
+  width: 100%;
+  margin: 0;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -130,10 +113,16 @@ footer {
     width: 50%;
     float: left;
     padding: .1em;
+
   }
 
-  img:nth-child(an+b){
-
+.text-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
 
 }
 
@@ -142,12 +131,7 @@ footer {
   img {
     display: flex;
     width: 32%;
-    float: left;
     padding: .1em;
-  }
-
-  .hard-chocolate .img-flex {
-    position: relative;
   }
 
   .text {
@@ -158,6 +142,34 @@ footer {
     text-align: left;
   }
 
+  .images {
+    width: 33%;
+  }
+
+  .together {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+  }
+
+  .together-img {
+    width: 30%;
+  }
+
+  .box {
+    display: inline-block;
+    width: 49.3%;
+    margin-top: 1em;
+  }
+
+  .text-box {
+    transform: translateX(-50%);
+  }
+
+
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -165,7 +177,6 @@ footer {
   img {
     display: inline-block;
     width: 25%;
-    float: left;
     padding: .1em;
   }
 
@@ -189,3 +200,9 @@ footer {
   }
 
 }
+
+
+.relative {
+  position: relative;
+
+  }
