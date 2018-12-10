@@ -125,15 +125,15 @@ footer {
 
   }
 
-.text-box {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
+  .text-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
 
-}
+  }
 
 }
 
