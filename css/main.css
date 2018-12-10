@@ -182,10 +182,6 @@ footer {
     padding: .1em;
   }
 
-  img:nth-child(even) {
-    display: inline;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -195,10 +191,6 @@ footer {
     width: 25%;
     float: left;
     padding: .1em;
-  }
-
-  img:nth-child(even) {
-    display: inline;
   }
 
 }
