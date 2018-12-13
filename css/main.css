@@ -151,7 +151,7 @@ footer {
   .text {
     position: absolute;
     top: 50%;
-    left: 50%;
+
     transform: translateX(-50%);
     text-align: left;
   }
@@ -195,6 +195,14 @@ footer {
     display: inline-block;
     width: 25%;
     padding: .1em;
+  }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
   }
 
 }
