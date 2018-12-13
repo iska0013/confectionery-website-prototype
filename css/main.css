@@ -151,7 +151,6 @@ footer {
   .text {
     position: absolute;
     top: 50%;
-
     transform: translateX(-50%);
     text-align: left;
   }
