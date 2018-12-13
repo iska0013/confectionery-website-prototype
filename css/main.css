@@ -30,6 +30,8 @@ header h1 {
   color: #fff;
   margin: .5em;
   margin-top: 0;
+  padding-top: .5em;
+  text-align: center;
 }
 
 header ul {
