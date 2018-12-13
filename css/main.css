@@ -71,6 +71,7 @@ header li a {
 
 div p {
   margin: 1em;
+  line-height: 2em;
 }
 
 div a {
