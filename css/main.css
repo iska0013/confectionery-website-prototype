@@ -127,7 +127,7 @@ footer {
 
   .text-box {
     position: absolute;
-    left: 50%;
+
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
@@ -151,6 +151,7 @@ footer {
   .text {
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateX(-50%);
     text-align: left;
   }
@@ -179,6 +180,7 @@ footer {
 
   .text-box {
     transform: translateX(-50%);
+    left: 50%;
   }
 
 }
